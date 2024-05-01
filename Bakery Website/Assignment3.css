@@ -1,0 +1,314 @@
+
+
+h1,h2,h3,.btn
+{
+    font-family: "Alegreya", serif;
+    margin: 20px 0px;
+    font-weight: 100;
+}
+
+h1
+{
+    font-size: 70px;
+}
+
+h2
+{
+    font-size: 30px;
+}
+h4
+{
+    color: white;
+}
+
+body{
+    margin: 0%;
+}
+
+p
+{
+    font-family: "Alegreya sans", sans-serif;
+    color: #9C9C9C;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 32px;
+}
+.navbar
+{
+    width: 80%;
+    margin: auto;
+    padding: 30px;
+    position: sticky;
+    top: 10px;
+}
+.iconbar
+{
+    float: left;
+}
+.iconbar img
+{
+    width: 150px;
+}
+
+.linkbar
+{
+    float: right;
+}
+
+.linkbar li
+{
+    float: left;
+    list-style: none;
+    margin-right: 50px;
+}
+.linkbar a
+{
+    color: white;
+    text-decoration: none;
+}
+.home-section
+{
+    background-image: url(images/drew-coffman-1872.jpg);
+    height: 100vh;
+    background-size:100% 100% ;
+     
+}
+.home-section p
+{
+    width: 25%;
+    margin: auto;
+    color: white;
+    font-size: 20px;
+}
+
+.home-content
+{
+    text-align: center;
+    color: white; 
+    padding-top: 150px;
+}
+
+.btn
+{
+    border: none;
+    padding: 20px 30px;
+    border-radius: 5px;
+    color: white;
+}
+
+.transparent-btn
+{
+    background-color: transparent;
+    border: 2px solid white;
+}
+
+.colored-btn
+{
+    background-color: #8E7754;
+
+}
+/*2nd section*/
+.intro-section
+{
+    /*padding: 50px ;*/
+    overflow: auto;
+      
+}
+.intro-section img
+{
+    float: left;
+    width: 40%;
+    padding: 70px 120px;
+
+}
+
+.intro-text
+{
+    padding: 80px;
+}
+
+
+
+.intro-icons img
+{
+    width: 3%;
+   padding: 0;
+   border: 1px #e1dddc solid;
+   border-radius: 50%;
+    
+}
+
+.intro-icons li
+{
+    list-style: none;
+}
+
+.intro-icons p{
+    display: inline-block  ;
+    padding-left: 1%;
+}
+
+/*3rd section*/
+.location-section
+{
+    background-color: #F8F8F8;
+}
+.location-text
+{
+    float: left;
+    width: 30%;
+    text-align: left;
+    padding: 10%;
+    
+}
+.location-section img
+{
+    width: 40%;
+    padding: 5%;
+    float: left;
+}
+/*4th section*/
+.our-baking-section
+{
+    padding: 80px 0px;
+}
+.our-baking-header
+{
+    text-align: center;
+}
+.our-baking-content
+{
+    width: 90%;
+   margin: auto;
+}
+
+.dough
+{
+    text-align: center;
+    width: 30%;
+    float: left;
+    padding: 10px;
+    
+    
+}
+.dough img
+{
+    width: 90%;
+}
+.dough h3
+{
+    color: black;
+}
+.clr
+{
+    clear: both;
+}
+/*5th section*/
+.contact
+{
+    padding: 5%;
+    width: 90%;
+    background-color: #F8F8F8;
+   
+}
+.contact-text 
+{
+    float: left;
+    width: 40%;
+    margin: auto;
+    
+}
+
+
+.contact-icons img
+{
+    width: 6%;
+    padding: 5px;
+    display: inline-block;
+    background-color: #8e7754 ;
+    border-radius: 50%;
+
+
+}
+.contact-icons li
+{
+    list-style: none;
+    display: block;
+}
+.contact-icons p
+{
+    padding-left: 10px;
+    display: inline-block;
+    
+}
+
+
+.contact-map img
+{
+    width: 40%;
+    padding-left: 10%;
+    float: left;
+    
+    
+}
+
+/*6th section*/
+.about-section
+{
+    background-color: #403D38;
+    padding-left: 10%;
+    padding-top: 2%;
+}
+
+.about-1,.about-2
+{
+    float: left;
+    width: 20%;
+}
+
+
+.about-2 li
+{
+    list-style: none;
+    display: block;
+}
+.about-2 hr
+{
+    width: 90%;
+    border: 0.25px solid #62605D;
+    opacity: 0.3;
+}
+
+.about-2 p
+{
+    float: left;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 5px;
+
+}
+.about-2 img
+{
+    width: 10%;
+    float: left;
+    margin-top: 4%;
+
+}
+.about-2 h4
+{
+    text-align: center;
+    font-size: 18px;
+}
+/*7th section*/
+.last-section
+{
+    background-color: #353330;
+    text-align: center;
+    padding: 5%;
+}
+.last-section-icons img
+{
+    width: 3%;
+    background-color: #403D38;
+    border-radius: 50%;
+}
