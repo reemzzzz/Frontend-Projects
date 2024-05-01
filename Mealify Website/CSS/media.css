@@ -1,0 +1,234 @@
+ /* S */
+
+
+@media screen and (max-width: 768px){
+    .container{
+        width: 95%;
+        max-width: 560px;
+        /* margin: 2rem 1rem; */
+        gap: 50px;
+        
+    }
+    .navbar-menu{
+        display: none;
+    }
+
+    .navbar .container{
+        margin: 0;
+        padding-inline: 15px;
+        width: 100%;
+    }
+    .home-section{
+        width: 100%;
+
+        /* max-width: 540px; */
+    }
+    
+    .home-section .home-pic{
+        width: 100%;
+        order: 1;
+    }  
+    .home-section .home-text{
+        width: 100%;
+        order: 2;
+        text-align: center;
+        /* align-items: center; */
+    } 
+    .chef-pic{
+        width: 100%;
+        margin-bottom: 2.5rem;
+        text-align: center;
+    }
+   .gallery-content{
+    display: flex;
+    flex-wrap: wrap;
+   }
+    .meal-container{
+        width: 100%;
+    }
+
+    .form-container .input-group{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .input-group input{
+        width: 100%;
+    }
+
+    .contact-way{
+        width: 100%;
+    }
+
+    footer .container{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .about-section , .subscription-section ,.footer-contact{
+        width: 100%;
+    }
+    .navbar-icon{
+        display: flex;
+        gap: 25px;
+    }
+    
+}
+
+
+/* M */
+@media screen and (min-width: 768px) and (max-width: 992px){
+    .container{
+        max-width: 720px;
+    }
+
+    .home-section .container{
+        flex-direction: column;
+        gap: 50px;
+    }
+    .home-section .home-pic{
+        width: 100%;
+        order: 1;
+        /* display: flex;
+        flex-direction: column;
+        align-items: center; */
+       
+    }  
+    .home-section .home-text{
+        width: 100%;
+        order: 2;
+        text-align: center;
+    } 
+ 
+    
+    .navbar-menu{
+        display: none;
+    }
+
+    .menu-icon{
+        
+    }
+    .chefs-section .container{
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+  
+    .chef-pic{
+        width: 48%;
+        margin-bottom: 2.5rem;
+    }
+    /* .chef-pics{
+        justify-content: space-evenly;
+        background-color: aqua;
+    } */
+
+    .gallery-content{
+        display: flex;
+        flex-wrap: wrap;
+       }
+       
+    .gallery-content .meal-container{
+        width: 45%;
+    }
+
+    .form-container .input-group{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .input-group input{
+        width: 100%;
+    }
+
+    footer .container{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .about-section {
+        width: 45%;
+        order: 1;
+    }
+
+    .footer-contact{
+        width: 45%;
+        order: 2;
+    }
+    
+    .subscription-section{
+        width: 100%;
+        order: 3;
+    }
+    /* .meal-container{
+        width: 20%;
+    } */
+
+    .navbar-icon{
+        display: flex;
+        gap: 25px;
+    }
+}
+
+/* L */
+@media screen and (min-width: 992px) and (max-width: 1199px){
+    .container{
+        
+        margin: 2rem 2rem;
+        max-width: 960px;
+    }
+    .home-section .container{
+        justify-content: space-evenly;
+    }
+    .home-section .home-pic{
+        width: 40%;
+        /* order: 1; */
+    }  
+    .home-section .home-text{
+        width: 40%;
+        /* order: 2; */
+    } 
+    .menu-icon{
+        display: none;
+    }
+}
+
+/* XL */
+@media screen and (min-width: 1200px)  {
+    /* .container{
+        width: 85%;
+        background-color: red;
+    } */
+    .navbar-menu{
+        display: block;
+    }
+    /* .chef-pic{
+        width: 31%;
+    } */
+    .home-section .container{
+        justify-content: space-evenly;
+    }
+    .home-pic{
+        width: 40%;
+    }
+    .home-text{
+        width: 40%;
+    }
+    .menu-icon{
+        display: none;
+    }
+  
+}
+
+/* XXL */
+@media screen and (min-width: 1400px) {
+    .container{
+        width: 85%;
+    }
+    .home-section .container{
+        justify-content: space-evenly;
+    }
+   
+}
