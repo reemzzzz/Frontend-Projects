@@ -1,0 +1,460 @@
+h1,h2,h3,h5{
+    font-family: "Montserrat", sans-serif;
+}
+.navbar a, .home-section a{
+    font-family: "Poppins", sans-serif;
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+}
+p,span,button{
+    font-family: "Poppins", sans-serif;
+}
+
+.navbar .container{
+    padding: 0 20px;
+}
+
+
+.line{
+  position: absolute;
+  bottom: -4px;
+  height: 0.5px;
+  left: 0;
+  width: 0;
+  background-color: black;
+}
+
+.nav-list a:hover .line{
+animation: menu-list 0.3s ease-in-out 0s 1  forwards;
+}
+
+.nav-item.active .line{
+animation: menu-list 0.3s ease-in-out 0s 1  forwards;
+}
+
+
+
+@keyframes  menu-list{
+from{
+    padding-bottom: 1px;
+    border-bottom: 2px solid black;
+    width: 0%;
+}
+
+to{
+    padding-bottom: 1px;
+    border-bottom: 2px solid black;
+    width: 100%;
+}
+}
+
+.container{
+    padding: 50px;
+
+}
+
+.bg-image{
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center; 
+}
+
+.layer{
+   background-color: rgba(10, 10, 10, 0.485);
+   /* opacity: 80%; */
+}
+
+.icon-circle{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.484);
+    /* box-shadow: 0 0 0 10px #0078ff; */
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s;
+}
+
+/* home section */
+#element::after {
+    content: " | ";
+    display: inline-block;
+    width: 0;
+}
+
+.home-section{
+    background-image: url(../imgs/bg.jpg);
+}
+
+.home-text h5{
+    font-size: 50px;
+}
+
+.home-text h1{
+    font-size: 60px;
+}
+
+/* about section */
+.about-img::after{
+    content: "";
+    width: 80%;
+    height: 80%;
+    position: absolute;
+    left: 0px;
+    bottom: -30px;
+    background-image: url(../imgs/dots.png);
+    background-repeat: repeat;
+    z-index: -1;
+}
+
+.about-img{
+    padding: 0 0 0 30px;
+    position: relative;
+}
+
+.bold{
+    font-weight: 700;
+  }
+
+.progress {
+    padding: 12px 10px;
+    position: relative;
+    box-shadow: 0 13px 10px -10px rgba(0, 0, 0, 0.5);
+
+}
+
+.progress-bar{
+    padding: 3px 6px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.download-btn, .contact-btn {
+    padding: 10px 20px;
+    border: 1px solid black;
+    font-size: small;
+    transition: all 0.5s;
+}
+
+.download-btn{
+    background-color: black;
+    color: white;
+}
+
+.download-btn:hover{
+    background-color: white;
+    color: black;
+}
+
+.contact-btn:hover{
+    background-color: black;
+    color: white;
+}
+
+/* services-section */
+
+.service-box{
+    background-color: white;
+    padding: 2.5rem 1.5rem;
+    box-shadow: 0px 10px 30px -8px rgba(0, 0, 0, 0.1);
+  }
+
+  .services-section{
+    background-color: #F7F7F7;
+  }
+
+
+  .service-box h2{
+    padding: 0.4rem 0;
+    font-weight: 500;
+    font-size: 1.4rem;
+  }
+
+
+  .service-box .icon-circle{
+    height: 60px;
+    width: 60px;
+    background-color:#F7F7F7 ;
+  }
+
+  .service-box:hover .icon-circle {
+    background-color: black;
+    color: white;
+  }
+
+  .heading{
+    font-weight: 900;
+  }
+
+  .section-line h3:after{
+    content: "";
+    width: 25%;
+    height: 14px;
+    background-image: url(../imgs/dots.png);
+    background-repeat: repeat;
+    position: absolute;
+    bottom: -11px;
+    left: 38%;
+  }
+
+
+  /* portfolio-section */
+  .portfolio-section .filtering span{
+    margin: 0 15px;
+    color: #222;
+    font-weight: 700;
+    font-size: 16px;
+    cursor: pointer;
+    position: relative;
+    z-index: 2;
+  }
+
+ .portfolio-img .layer{
+   position: absolute;
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    bottom: 5px;
+    background: rgba(255, 255, 255, 0.90);
+    opacity: 0;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+    z-index: 2;
+    -webkit-transform: translateY(10px);
+    transform: translateY(10px);
+ }
+
+ .portfolio-img:hover .layer{
+  opacity: 0.95;
+  transform: rotateY(360deg);
+}
+  
+.v-middle{
+  position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 0;
+}
+
+.v-middle h6 {
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  position: relative;
+  margin-bottom: 15px;
+  transform: translateY(-15px);
+  transition: all 0.5s;
+}
+.portfolio-section .icon-circle{
+  height: 40px;
+  width: 40px;
+  
+  background-color: black;
+  color: white;
+}
+
+.portfolio-section .icon-circle:hover{
+  background-color:#F7F7F7;
+  border: 1px solid black;
+}
+
+.portfolio-section .icon-circle:hover a{
+  color: black;
+}
+
+.portfolio-section a{
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+}
+
+
+.portfolio-img:hover .v-middle h6{
+  transform: translateY(5px);
+}
+
+
+  
+  .portfolio-item.active .line{
+  animation: menu-list 0.3s ease-in-out 0s 1  forwards;
+  }
+
+  .nav-link {
+    font-weight: 700;
+    font-size: 16px;
+    color: #222;
+}
+.nav-link:focus, .nav-link:hover {
+    color:#222; 
+}
+.nav-underline.nav-link:active,
+.nav-underline.nav-link:hover {
+  border-bottom-color: currentcolor;
+}
+
+  /* testimonial-section */
+
+  .testimonial-section{
+    background-color: #F7F7F7;
+  }
+
+
+  .testimonial-section .carousel-indicators button{
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: grey;
+
+  }
+
+
+
+  .author{
+    color: black;
+    text-transform: capitalize;
+    font-weight: 600;
+    margin: 1rem 0;
+    display: block;
+    font-size: 1.4rem;
+    text-align: center;
+  }
+
+  .carousel-item img{
+    height: 100px;
+    width: 100px;
+  }
+
+  .carousel-item .author-text{
+    font-size: 15px;
+  }
+
+  .carousel-item p{
+    font-size: 12px;
+  }
+
+
+  /* counter-section */
+  .count-no{
+    font-weight: 900;
+  }
+  
+  .counter-box .icon-circle{
+    height: 60px;
+    width: 60px;
+    background-color:white;
+  }
+
+  .counter-box span{
+    font-weight: bold;
+  }
+
+  /* team-section */
+  .team-section .card-img-top:hover{
+    transform: scale(1.2);
+  }
+
+
+  .team-section .card-img-top{
+    transition: all 0.5s;
+  }
+
+ .team-section .card .layer{
+    background-color: rgba(255, 255, 255, 0.95);
+    position: absolute;
+    text-align: center;
+    inset: 5px;
+    opacity: 0;
+    transition: all 0.5s;
+    transform: rotateY(180deg) scale(0.5, 0.5);
+  }
+
+  .card:hover .layer{
+    opacity: 0.99;
+    transform: rotateY(360deg);
+  }
+
+  .card ul{
+    text-align: center;
+    position: relative;
+    top: 175px;
+  }
+
+  .card .icon-circle{
+    height: 40px;
+    width: 40px;
+    
+    background-color: black;
+    color: white;
+  }
+
+  .card .icon-circle:hover{
+    background-color:#F7F7F7;
+    border: 1px solid black;
+  }
+
+  .card .icon-circle:hover a{
+    color: black;
+  }
+
+  .card a{
+    font-family: "Poppins", sans-serif;
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+  }
+
+  .team-section{
+    background-color: #F7F7F7;
+  }
+
+  /* contact-section */
+  .contact-section .icon-circle{
+    height: 60px;
+    width: 60px;
+    background-color: #dedbdb;
+    color: black;
+  }
+
+  .contact-section .icon-circle:hover{
+    background-color:black;
+  }
+
+  .contact-section .icon-circle:hover i{
+    color: white;
+  }
+  .contact-section a{
+    font-family: "Poppins", sans-serif;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+  }
+
+  .form-input{
+    padding: 10px 15px;
+    border: black 1px solid;
+    background-color: #F7F7F7;
+    border-radius: 5px;
+  }
+
+  .contact-section .container{
+    padding: 70px;
+  }
+
+  /* footer */
+
+  footer{
+    background-color: #181717;
+    text-align: center;
+    padding: 25px 0;
+  }
+
+  footer p{
+    color: gray;
+    font-size: small;
+  }

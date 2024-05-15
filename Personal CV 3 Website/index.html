@@ -1,0 +1,941 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daniels</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <script src="https://kit.fontawesome.com/142480f679.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="CSS/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+</head>
+<body data-bs-spy="scroll" data-bs-target="#navbar">
+
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg bg-white text-white fixed-top" id="navbar">
+        <div class="container d-flex justify-content-between">
+        <h1 class="nav-logo text-uppercase text-black fs-5 fw-bold mt-2">
+            daniels
+        </h1>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse flex-grow-0 fs-6" id="navbarNavDropdown">
+            <ul class="nav-list list-unstyled d-flex gap-5 mt-2">
+                <li>
+                  <a class="nav-item active position-relative text-black" aria-current="page" href="#home">Home
+                    <div class="line"></div>
+                  </a>
+                </li>
+                <li>
+                  <a class="nav-item text-black position-relative" href="#about">About
+                    <div class="line"></div>
+                  </a>
+                </li>
+                <li>
+                  <a class="nav-item text-black position-relative" href="#services">Services
+                    <div class="line"></div>
+                  </a>
+                </li>
+                <li>
+                  <a class="nav-item text-black position-relative" href="#works">Works
+                    <div class="line"></div>
+                  </a>
+                </li>
+                <li>
+                  <a class="nav-item text-black position-relative" href="#clients">Clients
+                    <div class="line"></div>
+                  </a>
+                </li>
+                <li>
+                  <a class="nav-item text-black position-relative" href="#team">Team
+                    <div class="line"></div>
+                  </a>
+                </li>
+                <li>
+                  <a class="nav-item text-black position-relative" href="#contact">contact
+                    <div class="line"></div>
+                  </a>
+                </li>
+            </ul>
+         </div>
+    </div>
+    </nav>
+
+    <!-- home section -->
+    <header>
+       
+    <div class="home-section bg-image vh-100" id="home">
+        <div class="layer vh-100"></div> 
+        <div class="container">
+            <div class="home-text position-absolute top-50 start-50 translate-middle text-center text-white">
+                <h5 class="text-capitalize fw-bolder mb-4">hello</h5>
+                <h1><span class="fw-lighter">I Am</span>
+                    <span class="fw-normal" id="element"></span></h1>
+                <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+          <script>
+              var typed = new Typed('#element', {
+                strings: [
+                  'Designer',
+                  'Developer',
+                  'Larry Daniels'
+              ],
+                typeSpeed: 20,
+                backSpeed:50,
+                loop: true,
+                showCursor: false
+              });
+              
+            </script>
+            <ul class="list-unstyled d-flex text-center gap-2 justify-content-center mt-4">
+                <li class="icon-circle"><a href="" class="fa fa-facebook-f"></a></li>
+                <li class="icon-circle"><a href="" class="fa fa-twitter"></a></li>
+                <li class="icon-circle"><a href="" class="fa fa-instagram"></a></li>
+                <li class="icon-circle"><a href="" class="fa fa-linkedin"></a></li>
+                <li class="icon-circle"><a href="" class="fa fa-github"></a></li>
+            </ul>
+            </div>
+        </div>
+        
+    </div>
+
+    </header>
+
+    <main>
+        <!-- about-section -->
+        <section class="about-section" id="about">
+            <div class="container">
+                <div class="row mb-4">
+                    <div class="col-md-5 mb-4">
+                        <div class="about-img ">
+                            <img class="w-100" src="imgs/hero.jpg" alt="">
+                        </div>
+                        
+
+                    </div>
+                    <div class="col-md-7">
+                        <h3 class="fw-bolder">About Me.</h3>
+                        <span class="text-secondary fw-light d-block mb-2" style="letter-spacing: 2px;">UI / UX DESIGNER & WEB DEVELOPER</span>
+                        <p class="text-secondary">I am <span class="bold">Jerry Daniels</span> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever It has survived not only five centuries, but also the leap into electronic but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing</p>
+                        <div class="skills">
+                            <div class="progress mt-4 mb-4 d-block" role="progressbar" aria-label="Warning example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                                <div class="progress-bar  bg-black d-flex flex-row justify-content-between rounded-2" style="width: 95%">
+                                <div class="skill-left ps-2">Web Design</div>
+                                <div class="skill-right pe-2">95%</div></div>
+                              </div>
+                              <div class="progress mt-4 mb-4" role="progressbar" aria-label="Warning example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                                <div class="progress-bar bg-black d-flex flex-row justify-content-between rounded-2" style="width: 80%">
+                                <div class="skill-left ps-2">Branding</div>
+                                <div class="skill-right pe-2">80%</div></div>
+                              </div>
+                              <div class="progress mt-4 mb-4" role="progressbar" aria-label="Warning example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                                <div class="progress-bar bg-black d-flex flex-row justify-content-between rounded-2" style="width: 90%">
+                                <div class="skill-left ps-2 ">Development</div>
+                                <div class="skill-right pe-2">90%</div></div>
+                              </div>
+                        </div>
+                        <button class="download-btn button rounded-2">Download C.V</button>
+                        <button class="contact-btn button rounded-2">Contact Me</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- services-section -->
+        <section class="services-section p-4 section-line" id="services">
+            <div class="container ">
+              <div class="row">
+                <div class="col-12 ">
+                  <div class="title mb-5 z-n1">
+                  <h3  class="heading text-capitalize text-center fs-1 position-relative ">services.</h3>
+                </div>
+                </div>
+              </div>
+              
+              <div class="row mt-5">
+                <div class="col-md-4">
+                  <div class="service-box mb-4 rounded-2">
+                    <div class="service-icon text-center mb-4 ">
+                      <span class="icon-circle">
+                        <i class="fa fa-solid fa-briefcase fs-3"></i>
+                      </span>
+                    </div>
+                    <div class="service-content text-center">
+                      <h2>Web Design</h2>
+                      <p class="text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia, provident vitae! Magni tempora perferendis eum non provident.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="service-box mb-4 rounded-2">
+                    <div class="service-icon text-center mb-4">
+                      <span class="icon-circle">
+                        <i class="fa fa-solid fa-list-check fs-3"></i>
+                      </span>
+                    </div>
+                    <div class="service-content text-center">
+                      <h2 class="text-capitalize">branding</h2>
+                      <p class="text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia, provident vitae! Magni tempora perferendis eum non provident.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="service-box mb-4 rounded-2">
+                    <div class="service-icon text-center mb-4">
+                      <span class="icon-circle">
+                        <i class="fa fa-solid fa-bar-chart fs-3"></i>
+                      </span>
+                    </div>
+                    <div class="service-content text-center">
+                      <h2 class="text-capitalize">development</h2>
+                      <p class="text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia, provident vitae! Magni tempora perferendis eum non provident.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="service-box mb-4 rounded-2">
+                    <div class="service-icon text-center mb-4">
+                      <span class="icon-circle">
+                        <i class="fa fa-solid fa-binoculars fs-3"></i>
+                      </span>
+                    </div>
+                    <div class="service-content text-center">
+                      <h2 class="text-capitalize">creative design</h2>
+                      <p class="text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia, provident vitae! Magni tempora perferendis eum non provident.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="service-box mb-4 rounded-2">
+                    <div class="service-icon text-center mb-4">
+                      <span class="icon-circle">
+                        <i class="fa fa-solid fa-sun fs-3"></i>
+                      </span>
+                    </div>
+                    <div class="service-content text-center">
+                      <h2 class="text-capitalize">fully responsive</h2>
+                      <p class="text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia, provident vitae! Magni tempora perferendis eum non provident.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="service-box mb-4 rounded-2">
+                    <div class="service-icon text-center mb-4">
+                      <span class="icon-circle">
+                        <i class="fa fa-solid fa-calendar fs-3"></i>
+                      </span>
+                    </div>
+                    <div class="service-content text-center">
+                      <h2 class="text-capitalize">retina ready</h2>
+                      <p class="text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia, provident vitae! Magni tempora perferendis eum non provident.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        <!--portfolio-section  -->
+        <section class="portfolio-section py-5 section-line" id="works">
+          <div class="container">
+              <div class="row">
+              <div class="col-12">
+                <h3  class="heading text-capitalize text-center fs-1 position-relative">Portfolio.</h3>
+              </div>
+            </div>
+            <ul class="nav nav-underline justify-content-center border-0" id="myTab" role="tablist">
+              <li class="nav-item" role="presentation">
+                <button class="nav-link active fw-bolder text-black" id="All-tab" data-bs-toggle="tab" data-bs-target="#All-tab-pane" type="button" role="tab" aria-controls="All-tab-pane" aria-selected="true">All</button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button class="nav-link fw-bolder text-black" id="Brand-tab" data-bs-toggle="tab" data-bs-target="#Brand-tab-pane" type="button" role="tab" aria-controls="Brand-tab-pane" aria-selected="false">Brand</button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button class="nav-link fw-bolder text-black" id="Design-tab" data-bs-toggle="tab" data-bs-target="#Design-tab-pane" type="button" role="tab" aria-controls="Design-tab-pane" aria-selected="false">Design</button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button class="nav-link fw-bolder text-black" id="Graphic-tab" data-bs-toggle="tab" data-bs-target="#Graphic-tab-pane" type="button" role="tab" aria-controls="Graphic-tab-pane" aria-selected="false">Graphic</button>
+              </li>
+            </ul>
+            
+      
+      
+            <div class="tab-content pt-5" id="myTabContent">
+              <div class="tab-pane fade show active" id="All-tab-pane" role="tabpanel" aria-labelledby="All-tab" tabindex="0">
+                
+                <div class="row gy-5 gx-4">
+                
+                <div class="portfolio-card col-lg-4 col-md-6  ">
+                      <div class="portfolio-content bg-white rounded-2 position-relative">
+                          <div class="portfolio-img mb-4">
+                                <img src="./imgs/portfolio/1.jpg" class="img-fluid" alt="">
+                                <div class="layer z-0">
+                                  <div class="v-middle text-center">
+                                   <h6 class="sm-titl">WEB DESIGN</h6>
+                                   <div class="icons">
+                                     <span class="icon-circle">
+                                       <a href="#0">
+                                         <i class="fa fa-chain-broken" aria-hidden="true"></i>
+                                       </a>
+                                     </span>
+                
+                                     <span class="icon-circle">
+                                       <a href="img/portfolio/4.jpg" class="hoverZoomLink" previewlistener="true">
+                                         <i class="fa fa-search-plus" aria-hidden="true"></i>
+                                       </a>
+                                     </span>
+                                   </div>
+                                  </div>
+                                 </div>
+                          </div>
+                          
+                      </div>
+                      
+                      
+                </div>
+                <div class="portfolio-card col-lg-4 col-md-6  ">
+                      <div class="portfolio-content bg-white rounded-2 position-relative">
+                          <div class="portfolio-img mb-4">
+                                <img src="./imgs/portfolio/2.jpg" class="img-fluid" alt="">
+                                <div class="layer z-0">
+                                  <div class="v-middle text-center">
+                                   <h6 class="sm-titl">WEB DESIGN</h6>
+                                   <div class="icons">
+                                     <span class="icon-circle">
+                                       <a href="#0">
+                                         <i class="fa fa-chain-broken" aria-hidden="true"></i>
+                                       </a>
+                                     </span>
+                
+                                     <span class="icon-circle">
+                                       <a href="img/portfolio/4.jpg" class="hoverZoomLink" previewlistener="true">
+                                         <i class="fa fa-search-plus" aria-hidden="true"></i>
+                                       </a>
+                                     </span>
+                                   </div>
+                                  </div>
+                                 </div>
+                          </div>
+                          
+                      </div>
+                      
+                      
+                </div>
+                <div class="portfolio-card col-lg-4 col-md-6  ">
+                      <div class="portfolio-content bg-white rounded-2 position-relative">
+                          <div class="portfolio-img mb-4">
+                                <img src="./imgs/portfolio/3.jpg" class="img-fluid" alt="">
+                                <div class="layer z-0">
+                                  <div class="v-middle text-center">
+                                   <h6 class="sm-titl">WEB DESIGN</h6>
+                                   <div class="icons">
+                                     <span class="icon-circle">
+                                       <a href="#0">
+                                         <i class="fa fa-chain-broken" aria-hidden="true"></i>
+                                       </a>
+                                     </span>
+                
+                                     <span class="icon-circle">
+                                       <a href="img/portfolio/4.jpg" class="hoverZoomLink" previewlistener="true">
+                                         <i class="fa fa-search-plus" aria-hidden="true"></i>
+                                       </a>
+                                     </span>
+                                   </div>
+                                  </div>
+                                 </div>
+                          </div>
+                          
+                      </div>
+                      
+                      
+                </div>
+                <div class="portfolio-card col-lg-4 col-md-6  ">
+                      <div class="portfolio-content bg-white rounded-2 position-relative">
+                          <div class="portfolio-img mb-4">
+                                <img src="./imgs/portfolio/4.jpg" class="img-fluid" alt="">
+                                <div class="layer z-0">
+                                  <div class="v-middle text-center">
+                                   <h6 class="sm-titl">WEB DESIGN</h6>
+                                   <div class="icons">
+                                     <span class="icon-circle">
+                                       <a href="#0">
+                                         <i class="fa fa-chain-broken" aria-hidden="true"></i>
+                                       </a>
+                                     </span>
+                
+                                     <span class="icon-circle">
+                                       <a href="img/portfolio/4.jpg" class="hoverZoomLink" previewlistener="true">
+                                         <i class="fa fa-search-plus" aria-hidden="true"></i>
+                                       </a>
+                                     </span>
+                                   </div>
+                                  </div>
+                                 </div>
+                          </div>
+                          
+                      </div>
+                      
+                      
+                </div>
+                <div class="portfolio-card col-lg-4 col-md-6  ">
+                      <div class="portfolio-content bg-white rounded-2 position-relative">
+                          <div class="portfolio-img mb-4">
+                                <img src="./imgs/portfolio/5.jpg" class="img-fluid" alt="">
+                                <div class="layer z-0">
+                                  <div class="v-middle text-center">
+                                   <h6 class="sm-titl">WEB DESIGN</h6>
+                                   <div class="icons">
+                                     <span class="icon-circle">
+                                       <a href="#0">
+                                         <i class="fa fa-chain-broken" aria-hidden="true"></i>
+                                       </a>
+                                     </span>
+                
+                                     <span class="icon-circle">
+                                       <a href="img/portfolio/4.jpg" class="hoverZoomLink" previewlistener="true">
+                                         <i class="fa fa-search-plus" aria-hidden="true"></i>
+                                       </a>
+                                     </span>
+                                   </div>
+                                  </div>
+                                 </div>
+                          </div>
+                          
+                      </div>
+                      
+                      
+                </div>
+                <div class="portfolio-card col-lg-4 col-md-6  ">
+                      <div class="portfolio-content bg-white rounded-2 position-relative">
+                          <div class="portfolio-img mb-4">
+                                <img src="./imgs/portfolio/6.jpg" class="img-fluid" alt="">
+                                <div class="layer z-0">
+                                  <div class="v-middle text-center">
+                                   <h6 class="sm-titl">WEB DESIGN</h6>
+                                   <div class="icons">
+                                     <span class="icon-circle">
+                                       <a href="#0">
+                                         <i class="fa fa-chain-broken" aria-hidden="true"></i>
+                                       </a>
+                                     </span>
+                
+                                     <span class="icon-circle">
+                                       <a href="img/portfolio/4.jpg" class="hoverZoomLink" previewlistener="true">
+                                         <i class="fa fa-search-plus" aria-hidden="true"></i>
+                                       </a>
+                                     </span>
+                                   </div>
+                                  </div>
+                                 </div>
+                          </div>
+                      </div>
+                      
+                      
+                </div>
+        
+                
+                </div>
+              </div>
+      
+              <div class="tab-pane fade" id="Brand-tab-pane" role="tabpanel" aria-labelledby="Brand-tab" tabindex="0">
+                <div class="row gy-5 gx-4">
+                
+                  <div class="portfolio-card col-md-4 col-sm-6  ">
+                        <div class="portfolio-content bg-white rounded-2 position-relative">
+                            <div class="portfolio-img mb-4">
+                                  <img src="./imgs/portfolio/4.jpg" class="img-fluid" alt="">
+                                  <div class="layer z-0">
+                                    <div class="v-middle text-center">
+                                     <h6 class="sm-titl">WEB DESIGN</h6>
+                                     <div class="icons">
+                                       <span class="icon-circle">
+                                         <a href="#0">
+                                           <i class="fa fa-chain-broken" aria-hidden="true"></i>
+                                         </a>
+                                       </span>
+                  
+                                       <span class="icon-circle">
+                                         <a href="img/portfolio/4.jpg" class="hoverZoomLink" previewlistener="true">
+                                           <i class="fa fa-search-plus" aria-hidden="true"></i>
+                                         </a>
+                                       </span>
+                                     </div>
+                                    </div>
+                                   </div>
+                            </div>
+                        </div>
+                        
+                        
+                  </div>
+                  <div class="portfolio-card col-md-4 col-sm-6  ">
+                        <div class="portfolio-content bg-white rounded-2 position-relative">
+                            <div class="portfolio-img mb-4">
+                                  <img src="./imgs/portfolio/6.jpg" class="img-fluid" alt="">
+                                  <div class="layer z-0">
+                                    <div class="v-middle text-center">
+                                     <h6 class="sm-titl">WEB DESIGN</h6>
+                                     <div class="icons">
+                                       <span class="icon-circle">
+                                         <a href="#0">
+                                           <i class="fa fa-chain-broken" aria-hidden="true"></i>
+                                         </a>
+                                       </span>
+                  
+                                       <span class="icon-circle">
+                                         <a href="img/portfolio/4.jpg" class="hoverZoomLink" previewlistener="true">
+                                           <i class="fa fa-search-plus" aria-hidden="true"></i>
+                                         </a>
+                                       </span>
+                                     </div>
+                                    </div>
+                                   </div>
+                            </div>
+                        </div>
+                        
+                        
+                  </div>
+               
+                </div>
+              </div>
+      
+      
+              <div class="tab-pane fade" id="Design-tab-pane" role="tabpanel" aria-labelledby="Design-tab" tabindex="0">
+                <div class="row gy-5 gx-4">
+                
+                  <div class="portfolio-card col-md-4 col-sm-6  ">
+                        <div class="portfolio-content bg-white rounded-2 position-relative">
+                            <div class="portfolio-img mb-4">
+                                  <img src="./imgs/portfolio/2.jpg" class="img-fluid" alt="">
+                                  <div class="layer z-0">
+                                    <div class="v-middle text-center">
+                                     <h6 class="sm-titl">WEB DESIGN</h6>
+                                     <div class="icons">
+                                       <span class="icon-circle">
+                                         <a href="#0">
+                                           <i class="fa fa-chain-broken" aria-hidden="true"></i>
+                                         </a>
+                                       </span>
+                  
+                                       <span class="icon-circle">
+                                         <a href="img/portfolio/4.jpg" class="hoverZoomLink" previewlistener="true">
+                                           <i class="fa fa-search-plus" aria-hidden="true"></i>
+                                         </a>
+                                       </span>
+                                     </div>
+                                    </div>
+                                   </div>
+                            </div>
+                        </div>
+                        
+                        
+                  </div>
+                  <div class="portfolio-card col-md-4 col-sm-6  ">
+                        <div class="portfolio-content bg-white rounded-2 position-relative">
+                            <div class="portfolio-img mb-4">
+                                  <img src="./imgs/portfolio/5.jpg" class="img-fluid" alt="">
+                                  <div class="layer z-0">
+                                    <div class="v-middle text-center">
+                                     <h6 class="sm-titl">WEB DESIGN</h6>
+                                     <div class="icons">
+                                       <span class="icon-circle">
+                                         <a href="#0">
+                                           <i class="fa fa-chain-broken" aria-hidden="true"></i>
+                                         </a>
+                                       </span>
+                  
+                                       <span class="icon-circle">
+                                         <a href="img/portfolio/4.jpg" class="hoverZoomLink" previewlistener="true">
+                                           <i class="fa fa-search-plus" aria-hidden="true"></i>
+                                         </a>
+                                       </span>
+                                     </div>
+                                    </div>
+                                   </div>
+                            </div>
+                        </div>
+                        
+                        
+                  </div>
+               
+                </div>
+              </div>
+      
+      
+              <div class="tab-pane fade" id="Graphic-tab-pane" role="tabpanel" aria-labelledby="Graphic-tab" tabindex="0">
+                <div class="row gy-5 gx-4">
+                
+                  <div class="portfolio-card col-md-4 col-sm-6  ">
+                        <div class="portfolio-content bg-white rounded-2 position-relative">
+                            <div class="portfolio-img mb-4">
+                                  <img src="./imgs/portfolio/1.jpg" class="img-fluid" alt="">
+                                  <div class="layer z-0">
+                                    <div class="v-middle text-center">
+                                     <h6 class="sm-titl">WEB DESIGN</h6>
+                                     <div class="icons">
+                                       <span class="icon-circle">
+                                         <a href="#0">
+                                           <i class="fa fa-chain-broken" aria-hidden="true"></i>
+                                         </a>
+                                       </span>
+                  
+                                       <span class="icon-circle">
+                                         <a href="img/portfolio/4.jpg" class="hoverZoomLink" previewlistener="true">
+                                           <i class="fa fa-search-plus" aria-hidden="true"></i>
+                                         </a>
+                                       </span>
+                                     </div>
+                                    </div>
+                                   </div>
+                            </div>
+                        </div>
+                        
+                        
+                  </div>
+                  <div class="portfolio-card col-md-4 col-sm-6  ">
+                        <div class="portfolio-content bg-white rounded-2 position-relative">
+                            <div class="portfolio-img mb-4">
+                                  <img src="./imgs/portfolio/3.jpg" class="img-fluid" alt="">
+                                  <div class="layer z-0">
+                                    <div class="v-middle text-center">
+                                     <h6 class="sm-titl">WEB DESIGN</h6>
+                                     <div class="icons">
+                                       <span class="icon-circle">
+                                         <a href="#0">
+                                           <i class="fa fa-chain-broken" aria-hidden="true"></i>
+                                         </a>
+                                       </span>
+                  
+                                       <span class="icon-circle">
+                                         <a href="img/portfolio/4.jpg" class="hoverZoomLink" previewlistener="true">
+                                           <i class="fa fa-search-plus" aria-hidden="true"></i>
+                                         </a>
+                                       </span>
+                                     </div>
+                                    </div>
+                                   </div>
+                            </div>
+                        </div>
+                        
+                        
+                  </div>
+                  <div class="portfolio-card col-md-4 col-sm-6  ">
+                        <div class="portfolio-content bg-white rounded-2 position-relative">
+                            <div class="portfolio-img mb-4">
+                                  <img src="./imgs/portfolio/5.jpg" class="img-fluid" alt="">
+                                  <div class="layer z-0">
+                                    <div class="v-middle text-center">
+                                     <h6 class="sm-titl">WEB DESIGN</h6>
+                                     <div class="icons">
+                                       <span class="icon-circle">
+                                         <a href="#0">
+                                           <i class="fa fa-chain-broken" aria-hidden="true"></i>
+                                         </a>
+                                       </span>
+                  
+                                       <span class="icon-circle">
+                                         <a href="img/portfolio/4.jpg" class="hoverZoomLink" previewlistener="true">
+                                           <i class="fa fa-search-plus" aria-hidden="true"></i>
+                                         </a>
+                                       </span>
+                                     </div>
+                                    </div>
+                                   </div>
+                            </div>
+                        </div>
+                        
+                        
+                  </div>
+               
+                </div>
+              </div>
+              
+            </div>
+          </div>
+      </section>
+        
+        <!-- testimonial-section -->
+        <section class="testimonial-section bg-image position-relative p-0 section-line" id="clients">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-12">
+                    <h3  class="heading text-capitalize text-center fs-1 position-relative">Testimonials.</h3>
+                    <div class="bd-example p-5 mt-5">
+                      <div id="carouselExampleIndicators" class="carousel slide">
+                        <div class="carousel-indicators text-secondary">
+                          <button type="button"   data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                          <button type="button"  data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"  aria-label="Slide 2"></button>
+                          <button type="button"  data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"  aria-label="Slide 3"></button>
+
+                        </div>
+                        <div class="carousel-inner">
+                          <div class="carousel-item active mb-5">
+                            <img src="imgs/1_New1.jpg" class="d-block img-fluid m-auto rounded-circle mb-5" alt="">
+                            <p class="author-text text-center text-secondary w-75 m-auto pb-3">
+                              
+                                Lorem Ipsum has been the industry's standard dummy text ever
+                                since the when an unknown printer took a galley of type and
+                                scrambled it to make a type specimen book.
+                              
+                            </p>
+                            <h6 class="text-center">Alex Smith</h6>
+                            <p class="text-center text-secondary">Envato Customer</p>
+                          </div>
+                          <div class="carousel-item mb-5">
+                            <img src="imgs/1_New1.jpg" class="d-block img-fluid m-auto rounded-circle mb-5" alt="">
+                            <p class="author-text text-center text-secondary w-75 m-auto pb-3">
+                              
+                                Lorem Ipsum has been the industry's standard dummy text ever
+                                since the when an unknown printer took a galley of type and
+                                scrambled it to make a type specimen book.
+                              
+                            </p>
+                            <h6 class="text-center">Alex Smith</h6>
+                            <p class="text-center text-secondary fw-medium">Envato Customer</p>
+                          </div>
+
+                          <div class="carousel-item mb-5">
+                            <img src="imgs/1_New1.jpg" class="d-block img-fluid m-auto rounded-circle mb-5" alt="">
+                            <p class="author-text text-center text-secondary w-75 m-auto pb-3">
+                              
+                                Lorem Ipsum has been the industry's standard dummy text ever
+                                since the when an unknown printer took a galley of type and
+                                scrambled it to make a type specimen book.
+                              
+                            </p>
+                            <h6 class="text-center">Alex Smith</h6>
+                            <p class="text-center text-secondary fw-medium">Envato Customer</p>
+                          </div>
+                        </div>
+                       
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+            
+          </section>
+        <!-- counter-section  -->
+        <section class="counter-section bg-image position-relative p-0 ">
+              <div class="container opacity-100">
+                <div class="row p-5">
+                  <div class="col-3-sm col-lg-3">
+                    <div class="counter-box mb-5">
+                      <div class="counter-icon text-center">
+                        <div class="icon-circle">
+                          <i class="fa fa-solid fa-check fs-2"></i>
+                        </div>
+                      </div>
+                      <div class="counter-content text-center mt-3">
+                        <p class="count-no fs-3">450</p>
+                        <span class="text-secondary">Happy Customers</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-3-sm col-lg-3">
+                    <div class="counter-box mb-5">
+                      <div class="counter-icon text-center">
+                        <div class="icon-circle">
+                          <i class="fa fa-solid fa-journal-whills fs-2"></i>
+                        </div>
+                      </div>
+                      <div class="counter-content text-center mt-3">
+                        <p class="count-no fs-3">450</p>
+                        <span class="text-secondary">Complete Projects</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-3-sm col-lg-3">
+                    <div class="counter-box mb-5">
+                      <div class="counter-icon text-center">
+                        <div class="icon-circle">
+                          <i class="fa fa-solid fa-people-arrows fs-2"></i>
+                        </div>
+                      </div>
+                      <div class="counter-content text-center mt-3">
+                        <p class="count-no fs-3 ">450</p>
+                        <span class="text-secondary">Lines Of Code</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-3-sm col-lg-3">
+                    <div class="counter-box mb-5">
+                      <div class="counter-icon text-center">
+                        <div class="icon-circle">
+                          <i class="fa fa-solid fa-award fs-2"></i>
+                        </div>
+                      </div>
+                      <div class="counter-content text-center mt-3">
+                        <p class="count-no fs-3">450</p>
+                        <span class="text-secondary">Files Downloaded</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            
+          </section>
+          <!-- team-section -->
+          <section class="team-section section-line" id="team">
+            <div class="container">
+              <div class="row">
+                <div class="col-sm-12">
+                  <div class="title mb-5">
+                    <h3  class="heading text-capitalize text-center fs-1 position-relative">Our Team.</h3>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-lg-4 col-md-6">
+                    <div class="card rounded-top-0 border-0 mb-3 ">
+                        <div class="img-container overflow-hidden position-relative">
+                            <div class="layer z-2">
+                                <ul class="list-unstyled d-flex text-center gap-2 justify-content-center">
+                                    <li class="icon-circle"><a href="" class="fa fa-facebook-f"></a></li>
+                                    <li class="icon-circle"><a href="" class="fa fa-twitter"></a></li>
+                                    <li class="icon-circle"><a href="" class="fa fa-instagram"></a></li>
+                                    <li class="icon-circle"><a href="" class="fa fa-linkedin"></a></li>
+                                </ul>
+                            </div>
+                            <img class="card-img-top" src="imgs/1.jpg" alt="Card image cap">
+                            
+                        </div>
+                        
+                        <div class="card-body bg-secondary text-white text-center">
+                          <h4>Dave Woods</h4>
+                          <h5 class="text-capitalize bold fs-4">Back-end developer</h5>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="card rounded-top-0 border-0 mb-3">
+                        
+                        <div class="img-container overflow-hidden position-relative">
+                            <div class="layer z-2">
+                                <ul class="list-unstyled d-flex text-center gap-2 justify-content-center">
+                                    <li class="icon-circle"><a href="" class="fa fa-facebook-f"></a></li>
+                                    <li class="icon-circle"><a href="" class="fa fa-twitter"></a></li>
+                                    <li class="icon-circle"><a href="" class="fa fa-instagram"></a></li>
+                                    <li class="icon-circle"><a href="" class="fa fa-linkedin"></a></li>
+                                </ul>
+                            </div>
+                            <img class="card-img-top" src="imgs/2.jpg" alt="Card image cap">
+                            
+                        </div>
+                        <div class="card-body bg-secondary text-white text-center">
+                          <h4>Dave Woods</h4>
+                          <h5 class="text-capitalize bold fs-4">Back-end developer</h5>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="card rounded-top-0 border-0 mb-3">
+                        <div class="img-container overflow-hidden position-relative">
+                            <div class="layer z-2">
+                                <ul class="list-unstyled d-flex text-center gap-2 justify-content-center">
+                                    <li class="icon-circle"><a href="" class="fa fa-facebook-f"></a></li>
+                                    <li class="icon-circle"><a href="" class="fa fa-twitter"></a></li>
+                                    <li class="icon-circle"><a href="" class="fa fa-instagram"></a></li>
+                                    <li class="icon-circle"><a href="" class="fa fa-linkedin"></a></li>
+                                </ul>
+                            </div>
+                            <img class="card-img-top" src="imgs/1.jpg" alt="Card image cap">
+                            
+                        </div>
+                        <div class="card-body bg-secondary text-white text-center">
+                          <h4>Dave Woods</h4>
+                          <h5 class="text-capitalize bold fs-4">Back-end developer</h5>
+                        </div>
+                      </div>
+                </div>
+                
+              </div>
+            </div>
+          </section>
+          <!-- contact-section -->
+          <section class="contact-section section-line" id="contact">
+            <div class="container">
+                <div class="row">
+                  <div class="col-sm-12">
+                    <div class="title mb-5">
+                      <h3  class="heading text-capitalize text-center fs-1 position-relative">Contact Us.</h3>
+                    </div>
+                  </div>
+                </div>
+                <div class="row justify-content-around">
+                  <div class="col-md-3">
+                    <div class="counter-box mb-5">
+                      <div class="counter-icon text-center">
+                        <div class="icon-circle">
+                          <i class="fa fa-solid fa-location-arrow fs-2"></i>
+                        </div>
+                      </div>
+                      <div class="counter-content text-center mt-3">
+                        <p class="bold fs-5">Address</p>
+                        <span class="text-secondary fw-normal">6834 Hollywood Blvd - Los Angeles CA</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-3">
+                    <div class="counter-box mb-5">
+                      <div class="counter-icon text-center">
+                        <div class="icon-circle">
+                          <i class="fa fa-solid fa-location-arrow fs-2"></i>
+                        </div>
+                      </div>
+                      <div class="counter-content text-center mt-3">
+                        <p class="bold fs-5">Address</p>
+                        <span class="text-secondary fw-normal">6834 Hollywood Blvd - Los Angeles CA</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-3">
+                    <div class="counter-box mb-5">
+                      <div class="counter-icon text-center">
+                        <div class="icon-circle">
+                          <i class="fa fa-solid fa-location-arrow fs-2"></i>
+                        </div>
+                      </div>
+                      <div class="counter-content text-center mt-3">
+                        <p class="bold fs-5">Address</p>
+                        <span class="text-secondary fw-normal">6834 Hollywood Blvd - Los Angeles CA</span>
+                      </div>
+                    </div>
+                  </div>
+                  
+                </div>
+                <div class="row">
+                  <div class="col-md-6">
+                    <input class="form-input border border-opacity-10 w-100 mb-4" type="text" name="name" id="name" placeholder="Name">
+                  </div>
+                  <div class="col-md-6">
+                    <input class="form-input border border-opacity-10 w-100" type="email" name="email" id="email" placeholder="Email">
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-12">
+                    <textarea class="form-input border border-opacity-10 w-100 mt-4" name="Message" id="message" rows="5" placeholder="Message"></textarea>
+                  </div>
+                </div>
+                <button class="download-btn button rounded-2 ps-5 pe-5 mt-4">Submit</button>
+              </div>
+          </section>
+    </main>
+    <footer>
+      <div class="container p-0 text-center">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="footer-text">
+              <p>Copy Right 2018 © By Daniels All Rights Reserved</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
